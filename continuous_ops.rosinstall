@@ -1,0 +1,16 @@
+- hg: {local-name: continuous_ops, uri: 'https://kforge.ros.org/contops/hg/'}
+- svn:
+   uri: https://code.ros.org/svn/ros-pkg/stacks/navigation_experimental/trunk
+   local-name: navigation_experimental
+- svn:
+   uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_power_drivers/trunk
+   local-name: pr2_power_drivers
+- svn:
+   uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_robot/trunk
+   local-name: pr2_robot
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_calibration/branches/auto_calibrate
+    local-name: pr2_calibration
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/branches/trunk_cturtle/sandbox/checkerboard_pose
+    local-name: checkerboard_pose

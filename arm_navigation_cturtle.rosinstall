@@ -1,0 +1,39 @@
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/arm_navigation/trunk
+    local-name: stacks/arm_navigation
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/collision_environment/trunk
+    local-name: stacks/collision_environment
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/kinematics/trunk
+    local-name: stacks/kinematics
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/trunk
+    local-name: stacks/motion_planners
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_common/trunk
+    local-name: stacks/motion_planning_common
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_environment/trunk
+    local-name: stacks/motion_planning_environment
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_visualization/trunk
+    local-name: stacks/motion_planning_visualization
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation/trunk
+    local-name: stacks/pr2_arm_navigation
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_apps/trunk
+    local-name: stacks/pr2_arm_navigation_apps
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/trunk
+    local-name: stacks/pr2_arm_navigation_tests
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/trunk
+    local-name: stacks/pr2_kinematics
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics_with_constraints/trunk
+    local-name: stacks/pr2_kinematics_with_constraints
+- svn:
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/trajectory_filters/trunk
+    local-name: stacks/trajectory_filters

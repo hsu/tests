@@ -12,5 +12,3 @@
 - svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
 - hg: {local-name: stacks/robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
     version: default}
-- git: {local-name: stacks/lcm, uri: 'git@github.com:hsu/lcm.git', version: master}
-- svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
