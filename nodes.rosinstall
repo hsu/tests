@@ -1,0 +1,1 @@
+- git: {local-name: nodes, uri: 'ssh://cfd2.com/srv/svn/repositories/nodes'}

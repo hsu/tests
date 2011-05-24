@@ -1,0 +1,37 @@
+- other: {local-name: /opt/ros/diamondback/ros}
+- other: {local-name: /opt/ros/diamondback/stacks}
+- svn: {local-name: stacks/pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/trunk'}
+- svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
+- svn: {local-name: stacks/physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/branches/tbb'}
+- svn: {local-name: stacks/wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
+- svn: {local-name: stacks/robot_model, uri: 'https://code.ros.org/svn/ros-pkg/stacks/robot_model/trunk'}
+- svn: {local-name: urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
+- svn: {local-name: stacks/wg_hardware_test, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_hardware_test/tags/diamondback'}
+- svn: {local-name: stacks/motion_planning_visualization, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_visualization/tags/diamondback'}
+- svn: {local-name: stacks/pr2_tabletop_manipulation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_tabletop_manipulation_apps/tags/diamondback'}
+- svn: {local-name: stacks/pr2_object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_object_manipulation/tags/diamondback'}
+- svn: {local-name: stacks/motion_planning_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_common/tags/diamondback'}
+- svn: {local-name: stacks/trajectory_filters, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/trajectory_filters/tags/diamondback'}
+- svn: {local-name: stacks/pr2_arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation/tags/diamondback'}
+- svn: {local-name: stacks/pr2_arm_navigation_tests, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/tags/diamondback'}
+- svn: {local-name: stacks/motion_planners, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/tags/diamondback'}
+- hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',
+    version: default}
+- svn: {local-name: stacks/pr2_web_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_web_apps/tags/diamondback'}
+- svn: {local-name: stacks/tabletop_object_perception, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/tabletop_object_perception/tags/diamondback'}
+- svn: {local-name: stacks/object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/object_manipulation/tags/diamondback'}
+- svn: {local-name: stacks/pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/diamondback'}
+- svn: {local-name: stacks/pr2_common_actions, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common_actions/tags/diamondback'}
+- hg: {local-name: stacks/pr2_doors, uri: 'https://kforge.ros.org/doors/hg', version: default}
+- hg: {local-name: stacks/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg', version: default}
+- svn: {local-name: stacks/wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/tags/diamondback'}
+- svn: {local-name: stacks/pr2_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation/tags/diamondback'}
+- svn: {local-name: stacks/kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/kinematics/tags/diamondback'}
+- svn: {local-name: stacks/pr2_robot, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_robot/tags/diamondback'}
+- svn: {local-name: stacks/pr2_mechanism, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_mechanism/trunk'}
+- svn: {local-name: stacks/pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/trunk'}
+- svn: {local-name: stacks/pr2_controllers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_controllers/trunk'}
+- svn: {local-name: stacks/pr2_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common/trunk'}
+- svn: {local-name: stacks/wifi_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wifi_drivers/tags/diamondback'}
+- svn: {local-name: stacks/pr2_power_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_power_drivers/tags/diamondback'}
+- svn: {local-name: stacks/pr2_gui, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_gui/tags/diamondback'}

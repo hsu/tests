@@ -1,0 +1,7 @@
+- other: {local-name: /opt/ros/diamondback/ros}
+- other: {local-name: /opt/ros/diamondback/stacks}
+- svn: {local-name: berkeley_demos, uri: 'svn+ssh://svn@rll.berkeley.edu/main/berkeley-ros-pkg/stacks/berkeley_demos/tags/willow/berkeley_demos'}
+- svn: {local-name: berkeley_utils, uri: 'svn+ssh://svn@rll.berkeley.edu/main/berkeley-ros-pkg/stacks/berkeley_utils/tags/willow/berkeley_utils'}
+- svn: {local-name: folding, uri: 'svn+ssh://svn@rll.berkeley.edu/main/berkeley-ros-pkg/stacks/folding/tags/willow/folding'}
+- svn: {local-name: pr2_simple_motions, uri: 'svn+ssh://svn@rll.berkeley.edu/main/berkeley-ros-pkg/stacks/pr2_simple_motions/tags/willow/pr2_simple_motions'}
+- svn: {local-name: visual_feedback, uri: 'svn+ssh://svn@rll.berkeley.edu/main/berkeley-ros-pkg/stacks/visual_feedback/tags/willow/visual_feedback'}

@@ -1,0 +1,18 @@
+- svn: 
+    local-name: billiards
+    uri: https://code.ros.org/svn/wg-ros-pkg/trunk/stacks/billiards
+- svn:
+    local-name: camera_offsetter
+    uri: https://code.ros.org/svn/ros-pkg/stacks/robot_calibration/trunk/camera_offsetter
+- svn:
+    local-name: executive_python
+    uri: https://code.ros.org/svn/wg-ros-pkg/stacks/executive_python/trunk 
+    version: -r 38202
+- svn:
+    local-name: navigation_experimental
+    uri: https://code.ros.org/svn/ros-pkg/stacks/navigation_experimental/trunk 
+    version: -r 30163
+- svn:
+    local-name: model_database
+    uri: https://code.ros.org/svn/wg-ros-pkg/trunk/sandbox/model_database
+- svn: {local-name: checkerboard_pose, uri: 'https://code.ros.org/svn/wg-ros-pkg/trunk/sandbox/checkerboard_pose/'}
