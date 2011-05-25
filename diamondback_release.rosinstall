@@ -109,3 +109,4 @@
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
 - bzr: {local-name: shadow_robot, uri: 'lp:sr-ros-interface/stable'}
 - svn: {local-name: stacks/velodyne, uri: 'http://utexas-art-ros-pkg.googlecode.com/svn/trunk/stacks/velodyne'}
+- svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/trunk'}
