@@ -6,7 +6,6 @@
 - svn: {local-name: stacks/collision_environment, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/collision_environment/tags/unstable'}
 - svn: {local-name: stacks/common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common/tags/diamondback'}
 - svn: {local-name: stacks/common_msgs, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common_msgs/tags/diamondback'}
-- hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: unstable}
 - svn: {local-name: stacks/common_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common_tutorials/tags/diamondback'}
 - svn: {local-name: stacks/diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/diamondback'}
 - svn: {local-name: stacks/documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/diamondback'}

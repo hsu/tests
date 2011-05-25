@@ -5,7 +5,6 @@
 - svn: {local-name: stacks/collision_environment, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/collision_environment/tags/unstable'}
 - svn: {local-name: stacks/common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common/tags/unstable'}
 - svn: {local-name: stacks/common_msgs, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common_msgs/tags/unstable'}
-- hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: unstable}
 - svn: {local-name: stacks/common_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common_tutorials/tags/unstable'}
 - svn: {local-name: stacks/diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/unstable'}
 - svn: {local-name: stacks/documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/unstable'}
@@ -92,3 +91,4 @@
 - svn: {local-name: release, uri: 'https://code.ros.org/svn/release/trunk'}
 - svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/trunk'}
 - svn: {local-name: stacks/wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
+- hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: unstable}
