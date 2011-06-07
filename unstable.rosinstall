@@ -1,6 +1,6 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/tags/unstable'}
 - svn: {local-name: stacks/arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/arm_navigation/tags/unstable'}
-- svn: {local-name: stacks/pcl, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl/tags/unstable/pcl'}
+- svn: {local-name: stacks/perception_pcl, uri: 'http://svn.pointclouds.org/ros/tags/unstable/perception_pcl'}
 - svn: {local-name: stacks/camera_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/camera_drivers/tags/unstable'}
 - svn: {local-name: stacks/collision_environment, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/collision_environment/tags/unstable'}
 - svn: {local-name: stacks/common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common/tags/unstable'}
