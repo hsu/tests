@@ -1,4 +1,5 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/trunk'}
+- hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: unstable}
 - svn: {local-name: stacks/arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/arm_navigation/tags/diamondback'}
 - svn: {local-name: stacks/perception_pcl, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl/tags/diamondback'}
 - svn: {local-name: stacks/perception_pcl_addons, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl_addons/tags/diamondback'}
@@ -60,7 +61,7 @@
 - svn: {local-name: stacks/pr2_power_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_power_drivers/tags/diamondback'}
 - svn: {local-name: stacks/pr2_robot, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_robot/tags/diamondback'}
 - svn: {local-name: stacks/pr2_self_test, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_self_test/tags/diamondback'}
-- svn: {local-name: stacks/pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/trunk'}
+- svn: {local-name: stacks/pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/tags/diamondback'}
 - svn: {local-name: stacks/pr2_tabletop_manipulation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_tabletop_manipulation_apps/tags/diamondback'}
 - svn: {local-name: stacks/pr2_web_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_web_apps/tags/diamondback'}
 - svn: {local-name: stacks/robot_calibration, uri: 'https://code.ros.org/svn/ros-pkg/stacks/robot_calibration/tags/diamondback'}
@@ -69,7 +70,7 @@
 - svn: {local-name: stacks/ros_tutorials, uri: 'https://code.ros.org/svn/ros/stacks/ros_tutorials/tags/diamondback'}
 - svn: {local-name: stacks/roslisp_support, uri: 'https://code.ros.org/svn/ros/stacks/roslisp_support/tags/diamondback'}
 - svn: {local-name: stacks/rx, uri: 'https://code.ros.org/svn/ros/stacks/rx/tags/diamondback'}
-- svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
+- svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/tags/diamondback'}
 - svn: {local-name: stacks/simulator_stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_stage/tags/diamondback'}
 - svn: {local-name: stacks/slam_gmapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_gmapping/tags/diamondback'}
 - svn: {local-name: stacks/slam_karto, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_karto/tags/unstable'}
@@ -88,7 +89,7 @@
 - svn: {local-name: stacks/wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/tags/diamondback'}
 - svn: {local-name: stacks/wifi_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wifi_drivers/tags/diamondback'}
 - svn: {local-name: wg-ros-pkg-unreleased-diamondback, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback'}
-- svn: {local-name: ros-pkg-unreleased, uri: 'https://code.ros.org/svn/ros-pkg/trunk'}
+- svn: {local-name: ros-pkg-unreleased-sandbox, uri: 'https://code.ros.org/svn/ros-pkg/trunk'}
 - svn: {local-name: installers, uri: 'https://code.ros.org/svn/ros/installers/trunk'}
 - svn: {local-name: urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
 - svn: {local-name: release, uri: 'https://code.ros.org/svn/release/trunk'}
@@ -96,13 +97,11 @@
 - svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
 - svn: {local-name: mekabot-ros-pkg, uri: 'https://mekabot-dev.com/svn/meka-ros-pkg/trunk'}
 - svn: {local-name: m3, uri: 'https://mekabot-dev.com/svn/m3/trunk'}
-- git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git',
-    version: master}
+- git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git', version: master}
 - svn: {local-name: stacks/mpi, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/mpi/trunk'}
 - hg: {local-name: contops, uri: 'https://kforge.ros.org/contops/hg/'}
 - svn: {local-name: stacks/robot_model, uri: 'https://code.ros.org/svn/ros-pkg/stacks/robot_model/trunk'}
-- hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',
-    version: default}
+- hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental', version: default}
 - git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
 - svn: {local-name: ros_experimental, uri: 'https://code.ros.org/svn/ros/stacks/ros_experimental/trunk'}
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
