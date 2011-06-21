@@ -6,7 +6,7 @@
 - svn: {local-name: stacks/physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/tags/unstable'}
 - svn: {local-name: stacks/pr2_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common/tags/unstable'}
 - svn: {local-name: stacks/pr2_controllers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_controllers/tags/unstable'}
-- svn: {local-name: stacks/pr2_mechanism, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_mechanism/tags/unstable'}
+- svn: {local-name: stacks/pr2_mechanism, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_mechanism/trunk'}
 - svn: {local-name: stacks/pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/tags/unstable'}
 - svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/tags/unstable'}
 - hg: {local-name: stacks/robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model', version: robot_model-1.4}
