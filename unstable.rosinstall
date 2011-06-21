@@ -47,7 +47,7 @@
 - svn: {local-name: stacks/pr2_gui, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_gui/tags/unstable'}
 - svn: {local-name: stacks/pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/unstable'}
 - svn: {local-name: stacks/pr2_kinematics_with_constraints, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics_with_constraints/tags/unstable'}
-- svn: {local-name: stacks/pr2_mechanism, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_mechanism/tags/unstable'}
+- hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: unstable}
 - svn: {local-name: stacks/pr2_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation/tags/unstable'}
 - svn: {local-name: stacks/pr2_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation_apps/tags/unstable'}
 - svn: {local-name: stacks/pr2_object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_object_manipulation/tags/unstable'}
