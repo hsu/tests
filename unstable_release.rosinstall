@@ -10,6 +10,9 @@
 - svn: {local-name: stacks/armnavigation_octomapmapping, uri: 'https://kforge.ros.org/armnavigation/octomapmapping/trunk'}
 - hg: {local-name: stacks/warehouse, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: unstable}
 
+- svn: {local-name: stacks/arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/arm_navigation/tags/unstable'}
+- svn: {local-name: stacks/stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/stage/tags/unstable'}
+- svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/trunk'}
 - svn: {local-name: stacks/perception_pcl, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl/tags/unstable'}
 - svn: {local-name: stacks/perception_pcl_addons, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl_addons/tags/unstable'}
 - svn: {local-name: stacks/camera_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/camera_drivers/tags/unstable'}
@@ -97,7 +100,6 @@
 - svn: {local-name: stacks/wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/tags/unstable'}
 - svn: {local-name: stacks/wifi_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wifi_drivers/tags/unstable'}
 - svn: {local-name: stacks/wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
-- svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/trunk'}
 - hg: {local-name: stacks/robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
     version: default}
 - hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',
