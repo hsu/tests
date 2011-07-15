@@ -1,8 +1,4 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/trunk'}
-- hg: {local-name: stacks/turtlebot/simulator, uri: 'https://kforge.ros.org/turtlebot/simulator', version: unstable}
-- hg: {local-name: stacks/turtlebot/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot', version: unstable}
-- hg: {local-name: stacks/turtlebot/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz', version: unstable}
-- hg: {local-name: stacks/turtlebot/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps', version: unstable}
 - hg: {local-name: stacks/armnavigation/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation', version: unstable}
 - hg: {local-name: stacks/armnavigation/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental', version: unstable}
 - hg: {local-name: stacks/warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: unstable}
@@ -102,11 +98,4 @@
 - hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',
     version: default}
 - svn: {local-name: stacks/mpi, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/mpi/trunk'}
-- svn: {local-name: installers, uri: 'https://code.ros.org/svn/ros/installers/trunk'}
 - svn: {local-name: urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
-- svn: {local-name: release, uri: 'https://code.ros.org/svn/release/trunk'}
-- svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/trunk'}
-- hg: {local-name: contops, uri: 'https://kforge.ros.org/contops/hg/'}
-- git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
-- svn: {local-name: ros_experimental, uri: 'https://code.ros.org/svn/ros/stacks/ros_experimental/trunk'}
-- svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
