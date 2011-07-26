@@ -1,21 +1,13 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/trunk'}
-- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot_turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot_turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot_turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps',
-    version: unstable}
-- hg: {local-name: stacks/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation',
-    version: unstable}
-- hg: {local-name: stacks/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental',
-    version: unstable}
-- hg: {local-name: stacks/audio_common, uri: 'https://kforge.ros.org/audiocommon/audio_common',
-    version: unstable}
+- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator', version: unstable}
+- hg: {local-name: stacks/turtlebot_turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot', version: unstable}
+- hg: {local-name: stacks/turtlebot_turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz', version: unstable}
+- hg: {local-name: stacks/turtlebot_turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps', version: unstable}
+- hg: {local-name: stacks/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation', version: unstable}
+- hg: {local-name: stacks/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental', version: unstable}
+- hg: {local-name: stacks/audio_common, uri: 'https://kforge.ros.org/audiocommon/audio_common', version: unstable}
 - svn: {local-name: stacks/octomap_mapping_experimental, uri: 'https://kforge.ros.org/armnavigation/octomapmapping/trunk'}
-- hg: {local-name: stacks/warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg',
-    version: unstable}
+- hg: {local-name: stacks/warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: unstable}
 - svn: {local-name: stacks/stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/stage/tags/unstable'}
 - svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/trunk'}
 - svn: {local-name: stacks/perception_pcl, uri: 'http://svn.pointclouds.org/ros/tags/unstable/perception_pcl'}
@@ -105,6 +97,7 @@
 - svn: {local-name: stacks/wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/tags/unstable'}
 - svn: {local-name: stacks/wifi_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wifi_drivers/tags/unstable'}
 - svn: {local-name: stacks/wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
+- svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/trunk'}
 - hg: {local-name: stacks/robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
     version: default}
 - hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',

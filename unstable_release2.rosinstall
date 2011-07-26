@@ -1,11 +1,10 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/trunk'}
-- hg: {local-name: stacks/armnavigation/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation',
-    version: unstable}
-- hg: {local-name: stacks/armnavigation/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental',
-    version: unstable}
-- hg: {local-name: stacks/warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg',
-    version: unstable}
-- svn: {local-name: stacks/armnavigation/octo_mapmapping_experimental, uri: 'https://kforge.ros.org/armnavigation/octomapmapping/trunk'}
+- hg: {local-name: stacks/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation', version: unstable}
+- hg: {local-name: stacks/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental', version: unstable}
+- hg: {local-name: stacks/warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: unstable}
+- hg: {local-name: stacks/audio_common, uri: 'https://kforge.ros.org/audiocommon/audio_common', version: unstable}
+- hg: {local-name: stacks/common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore', version: default}
+- svn: {local-name: stacks/octo_mapmapping_experimental, uri: 'https://kforge.ros.org/armnavigation/octomapmapping/trunk'}
 - svn: {local-name: stacks/perception_pcl, uri: 'http://svn.pointclouds.org/ros/tags/unstable/perception_pcl'}
 - svn: {local-name: stacks/perception_pcl_addons, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl_addons/tags/unstable'}
 - svn: {local-name: stacks/camera_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/camera_drivers/tags/unstable'}
