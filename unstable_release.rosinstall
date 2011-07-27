@@ -29,7 +29,7 @@
 - hg: {local-name: stacks/nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore',
     version: nodelet_core-1.5.0}
 - svn: {local-name: stacks/octo_mapmapping_experimental, uri: 'https://kforge.ros.org/armnavigation/octomapmapping/trunk'}
-- svn: {local-name: stacks/octomap_mapping, uri: 'https://alufr-ros-pkg.googlecode.com/svn/tags/stacks/octomap_mapping/unstable'}
+- svn: {local-name: stacks/octomap_mapping, uri: 'https://alufr-ros-pkg.googlecode.com/svn/tags/stacks/octomap_mapping/octomap_mapping-0.3.1'}
 - svn: {local-name: stacks/perception_pcl, uri: 'http://svn.pointclouds.org/ros/tags/unstable/perception_pcl'}
 - svn: {local-name: stacks/perception_pcl_addons, uri: 'https://code.ros.org/svn/ros-pkg/stacks/perception_pcl_addons/tags/unstable'}
 - svn: {local-name: stacks/camera_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/camera_drivers/tags/unstable'}
