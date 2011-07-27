@@ -1,0 +1,7 @@
+- other: {local-name: /opt/ros/electric/ros}
+- other: {local-name: /opt/ros/electric/stacks}
+- git: {local-name: stacks/gesture_builder, uri: 'https://hsu@kforge.ros.org/sandbox/gesture_builder', version: master}
+- git: {local-name: stacks/laban_requestors, uri: 'https://hsu@kforge.ros.org/sandbox/laban_requestors', version: master}
+- git: {local-name: stacks/spacePilotDriver, uri: 'https://hsu@kforge.ros.org/sandbox/spacePilotDriver', version: master}
+- git: {local-name: stacks/laban_service, uri: 'https://hsu@kforge.ros.org/sandbox/laban_service', version: master}
+- svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}
