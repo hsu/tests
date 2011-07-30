@@ -58,8 +58,8 @@
     version: unstable}
 - svn: {local-name: stacks/graph_mapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/graph_mapping/tags/unstable'}
 - svn: {local-name: stacks/image_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_common/tags/unstable'}
-- svn: {local-name: stacks/image_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_pipeline/tags/unstable'}
-- svn: {local-name: stacks/image_transport_plugins, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_transport_plugins/tags/unstable'}
+- svn: {local-name: stacks/image_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_pipeline/tags/image_pipeline-1.5.1'}
+- svn: {local-name: stacks/image_transport_plugins, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_transport_plugins/tags/image_transport_plugins-1.4.1'}
 - svn: {local-name: stacks/imu_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/imu_drivers/tags/unstable'}
 - svn: {local-name: stacks/joystick_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/joystick_drivers/tags/unstable'}
 - svn: {local-name: stacks/joystick_drivers_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/joystick_drivers_tutorials/tags/unstable'}
@@ -67,6 +67,7 @@
 - svn: {local-name: stacks/laser_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/laser_drivers/tags/unstable'}
 - svn: {local-name: stacks/laser_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/laser_pipeline/tags/unstable'}
 - svn: {local-name: stacks/motion_planners, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/trunk'}
+- svn: {local-name: stacks/motion_planning_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_common/trunk'}
 - hg: {local-name: navigation, uri: 'https://kforge.ros.org/navigation/navigation',
     version: unstable}
 - svn: {local-name: stacks/object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/object_manipulation/trunk'}
@@ -74,8 +75,8 @@
 - svn: {local-name: stacks/physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/trunk'}
 - svn: {local-name: stacks/point_cloud_perception, uri: 'https://code.ros.org/svn/ros-pkg/stacks/point_cloud_perception/tags/unstable'}
 - svn: {local-name: stacks/pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_apps/tags/unstable'}
-- hg: {local-name: stacks/openni_kinect, uri: 'https://kforge.ros.org/openni/openni_ros'}
 - svn: {local-name: stacks/pr2_arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation/tags/unstable'}
+- svn: {local-name: stacks/pr2_arm_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_apps/tags/unstable'}
 - svn: {local-name: stacks/pr2_arm_navigation_tests, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/tags/unstable'}
 - hg: {local-name: pr2_calibration, uri: 'https://kforge.ros.org/calibration/pr2_calibration',
     version: default}
@@ -90,7 +91,6 @@
     version: assimp-0.1.1}
 - git: {local-name: stacks/orocos_kinematics_dynamics, uri: 'https://kforge.ros.org/geometry/kdlclone',
     version: orocos_kinematics_dynamics-0.2.0}
-- svn: {local-name: stacks/pr2_doors, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_doors/tags/unstable'}
 - svn: {local-name: stacks/pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/trunk'}
 - svn: {local-name: stacks/pr2_gui, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_gui/tags/unstable'}
 - svn: {local-name: stacks/pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/unstable'}
@@ -101,7 +101,8 @@
     version: unstable}
 - svn: {local-name: stacks/pr2_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation_apps/tags/unstable'}
 - svn: {local-name: stacks/pr2_object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_object_manipulation/tags/unstable'}
-- svn: {local-name: stacks/pr2_plugs, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_plugs/tags/unstable'}
+- hg: {local-name: pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
+- hg: {local-name: pr2_doors, uri: 'https://kforge.ros.org/doors/hg'}
 - svn: {local-name: stacks/pr2_power_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_power_drivers/tags/unstable'}
 - svn: {local-name: stacks/pr2_robot, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_robot/tags/unstable'}
 - svn: {local-name: stacks/pr2_self_test, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_self_test/tags/unstable'}
@@ -116,9 +117,6 @@
 - svn: {local-name: stacks/rx, uri: 'https://code.ros.org/svn/ros/stacks/rx/tags/unstable'}
 - svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
 - svn: {local-name: stacks/simulator_stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_stage/tags/unstable'}
-- svn: {local-name: stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/stage/tags/stage-1.3.4'}
-- svn: {local-name: roshpit, uri: 'https://code.ros.org/svn/ros/stacks/roshpit/trunk'}
-- svn: {local-name: multimaster_experimental, uri: 'https://code.ros.org/svn/ros/stacks/multimaster_experimental/trunk'}
 - svn: {local-name: stacks/slam_gmapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_gmapping/tags/unstable'}
 - svn: {local-name: stacks/slam_karto, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_karto/tags/unstable'}
 - svn: {local-name: stacks/sound_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/sound_drivers/tags/unstable'}
