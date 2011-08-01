@@ -14,7 +14,7 @@
 - hg: {local-name: nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore',
     version: nodelet_core-1.5.0}
 - git: {local-name: orocos_kinematics_dynamics, uri: 'https://kforge.ros.org/geometry/kdlclone',
-    version: rosinstall_tagged_branch}
+    version: orocos_kinematics_dynamics-0.2.0}
 - hg: {local-name: pluginlib, uri: 'https://kforge.ros.org/common/pluginlib', version: pluginlib-1.5.0}
 - hg: {local-name: assimp, uri: 'https://kforge.ros.org/robotmodel/assimp', version: assimp-0.1.1}
 - hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
@@ -35,7 +35,7 @@
 - hg: {local-name: robot_model_visualization, uri: 'https://kforge.ros.org/robotmodel/visualization',
     version: robot_model_visualization-0.1.2}
 - hg: {local-name: arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation',
-    version: arm_navigation-1.0.1}
+    version: arm_navigation_metrics}
 - svn: {local-name: octomap_mapping, uri: 'https://alufr-ros-pkg.googlecode.com/svn/tags/stacks/octomap_mapping/octomap_mapping-0.3.1'}
 - svn: {local-name: kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/kinematics/tags/kinematics-0.4.0'}
 - svn: {local-name: motion_planners, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/tags/motion_planners-0.4.0'}
@@ -64,7 +64,7 @@
 - hg: {local-name: warehousewg, uri: 'http://kforge.ros.org/warehousewg/warehouse-hg',
     version: warehousewg-0.4.4}
 - hg: {local-name: arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental',
-    version: arm_navigation_experimental-0.4.2}
+    version: arm_navigation_metrics}
 - svn: {local-name: pr2_arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation/tags/pr2_arm_navigation-0.4.2'}
 - svn: {local-name: pr2_object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_object_manipulation/tags/pr2_object_manipulation-0.5.4'}
 - svn: {local-name: pr2_tabletop_manipulation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_tabletop_manipulation_apps/tags/pr2_tabletop_manipulation_apps-0.5.0'}
@@ -110,3 +110,8 @@
 - svn: {local-name: camera_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/camera_drivers/trunk'}
 - svn: {local-name: point_cloud_perception, uri: 'https://code.ros.org/svn/ros-pkg/stacks/point_cloud_perception/trunk'}
 - svn: {local-name: laser_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/laser_drivers/trunk'}
+- svn: {local-name: pr2_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation_apps/trunk'}
+- svn: {local-name: mapping_msgs, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_common/trunk/mapping_msgs'}
+- svn: {local-name: geometric_shapes_msgs, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planning_common/trunk/geometric_shapes_msgs'}
+- svn: {local-name: wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/trunk'}
+- svn: {local-name: willow_maps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_common/trunk/willow_maps'}
