@@ -1,12 +1,8 @@
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/trunk'}
-- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz',
-    version: unstable}
-- hg: {local-name: stacks/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps',
-    version: unstable}
+- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator', version: unstable}
+- hg: {local-name: stacks/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot', version: unstable}
+- hg: {local-name: stacks/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz', version: unstable}
+- hg: {local-name: stacks/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps', version: unstable}
 - hg: {local-name: stacks/arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation',
     version: unstable}
 - hg: {local-name: stacks/arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental',

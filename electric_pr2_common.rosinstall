@@ -1,0 +1,5 @@
+- other: {local-name: /opt/ros/electric/ros}
+- other: {local-name: /opt/ros/electric/stacks}
+- svn: {local-name: pr2_description, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common/trunk/pr2_description'}
+- svn: {local-name: simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
+- svn: {local-name: pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/trunk'}
