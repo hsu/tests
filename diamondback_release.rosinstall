@@ -81,7 +81,7 @@
 - hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model', version: robot_model-1.4}
 - svn: {local-name: ros_experimental, uri: 'https://code.ros.org/svn/ros/stacks/ros_experimental/trunk'}
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
-- bzr: {local-name: shadow_robot, uri: 'http://bazaar.launchpad.net/~shadowrobot/sr-ros-interface/stable'}
+- bzr: {local-name: shadow_robot, uri: 'lp:sr-ros-interface/stable'}
 - hg: {local-name: warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg'}
 - hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore'}
 - svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/branches/wg_robots_gazebo-1.4'}
