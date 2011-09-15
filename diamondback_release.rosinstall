@@ -14,12 +14,7 @@
 - svn: {local-name: stacks/diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/diamondback'}
 - svn: {local-name: stacks/documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/diamondback'}
 - svn: {local-name: stacks/driver_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/driver_common/tags/diamondback'}
-- hg: {local-name: stacks/geometry, uri: 'https://ros-geometry.googlecode.com/hg/',
-    version: diamondback}
-- hg: {local-name: stacks/geometry_experimental, uri: 'https://ros-geometry-experimental.googlecode.com/hg/',
-    version: unstable}
-- svn: {local-name: stacks/geometry_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/geometry_tutorials/tags/unstable'}
-- svn: {local-name: stacks/graph_mapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/graph_mapping/tags/unstable'}
+- hg: {local-name: stacks/geometry, uri: 'https://ros-geometry.googlecode.com/hg/', version: diamondback}
 - svn: {local-name: stacks/image_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_common/tags/diamondback'}
 - svn: {local-name: stacks/image_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_pipeline/tags/diamondback'}
 - svn: {local-name: stacks/image_transport_plugins, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_transport_plugins/tags/diamondback'}
@@ -38,14 +33,12 @@
 - svn: {local-name: stacks/point_cloud_perception, uri: 'https://code.ros.org/svn/ros-pkg/stacks/point_cloud_perception/tags/diamondback'}
 - svn: {local-name: stacks/pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_apps/tags/diamondback'}
 - svn: {local-name: stacks/pr2_arm_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation/tags/diamondback'}
-- svn: {local-name: stacks/pr2_arm_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_apps/tags/unstable'}
 - svn: {local-name: stacks/pr2_arm_navigation_tests, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/tags/diamondback'}
 - svn: {local-name: stacks/pr2_calibration, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_calibration/tags/diamondback'}
 - svn: {local-name: stacks/pr2_cockpit, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_cockpit/tags/diamondback'}
 - svn: {local-name: stacks/pr2_common_actions, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common_actions/tags/diamondback'}
 - svn: {local-name: stacks/pr2_gui, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_gui/tags/diamondback'}
 - svn: {local-name: stacks/pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/diamondback'}
-- svn: {local-name: stacks/pr2_kinematics_with_constraints, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics_with_constraints/tags/unstable'}
 - svn: {local-name: stacks/pr2_navigation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation/tags/diamondback'}
 - svn: {local-name: stacks/pr2_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_navigation_apps/tags/diamondback'}
 - svn: {local-name: stacks/pr2_object_manipulation, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_object_manipulation/tags/diamondback'}
@@ -62,7 +55,6 @@
 - svn: {local-name: stacks/rx, uri: 'https://code.ros.org/svn/ros/stacks/rx/tags/diamondback'}
 - svn: {local-name: stacks/simulator_stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_stage/tags/diamondback'}
 - svn: {local-name: stacks/slam_gmapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_gmapping/tags/diamondback'}
-- svn: {local-name: stacks/slam_karto, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_karto/tags/unstable'}
 - svn: {local-name: stacks/sound_drivers, uri: 'https://code.ros.org/svn/ros-pkg/stacks/sound_drivers/tags/diamondback'}
 - svn: {local-name: stacks/sql_database, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/sql_database/tags/diamondback'}
 - svn: {local-name: stacks/tabletop_object_perception, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/tabletop_object_perception/tags/diamondback'}
@@ -70,7 +62,6 @@
 - svn: {local-name: stacks/vision_opencv, uri: 'https://code.ros.org/svn/ros-pkg/stacks/vision_opencv/tags/diamondback'}
 - svn: {local-name: stacks/visualization_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/visualization_common/tags/diamondback'}
 - svn: {local-name: stacks/visualization_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/visualization_tutorials/tags/diamondback'}
-- svn: {local-name: stacks/vslam, uri: 'https://code.ros.org/svn/ros-pkg/stacks/vslam/tags/unstable'}
 - svn: {local-name: stacks/web_interface, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/web_interface/tags/diamondback'}
 - svn: {local-name: stacks/wg_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_common/tags/diamondback'}
 - svn: {local-name: stacks/wg_hardware_test, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_hardware_test/tags/diamondback'}
@@ -112,3 +103,10 @@
 - hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental', version: default}
 - git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git', version: master}
 - git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
+- svn: {local-name: stacks/vslam, uri: 'https://code.ros.org/svn/ros-pkg/stacks/vslam/tags/unstable'}
+- svn: {local-name: stacks/slam_karto, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_karto/tags/unstable'}
+- svn: {local-name: stacks/pr2_kinematics_with_constraints, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics_with_constraints/tags/unstable'}
+- svn: {local-name: stacks/pr2_arm_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_apps/tags/unstable'}
+- hg: {local-name: stacks/geometry_experimental, uri: 'https://ros-geometry-experimental.googlecode.com/hg/', version: unstable}
+- svn: {local-name: stacks/geometry_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/geometry_tutorials/tags/unstable'}
+- svn: {local-name: stacks/graph_mapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/graph_mapping/tags/unstable'}
