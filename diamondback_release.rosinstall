@@ -81,7 +81,7 @@
 - svn: {local-name: stacks/pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/branches/pr2_ethercat_drivers-1.4'}
 - hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: pr2_mechanism-1.4}
 - hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model', version: robot_model-1.4}
-- bzr: {local-name: shadow_robot, uri: 'lp:sr-ros-interface/stable', version: 'http://bazaar.launchpad.net/~shadowrobot/sr-ros-interface/stable/'}
+- bzr: {local-name: shadow_robot, uri: 'http://bazaar.launchpad.net/~shadowrobot/sr-ros-interface/stable', version: root}
 - hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore'}
 - svn: {local-name: wg-ros-pkg-unreleased-diamondback, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback'}
 - svn: {local-name: ros_experimental, uri: 'https://code.ros.org/svn/ros/stacks/ros_experimental/trunk'}
