@@ -99,7 +99,7 @@
 - hg: {local-name: stacks/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg', version: default}
 - hg: {local-name: stacks/pr2_doors, uri: 'https://kforge.ros.org/doors/hg', version: default}
 - hg: {local-name: stacks/navigation, uri: 'https://kforge.ros.org/navigation/navigation', version: default}
-- hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: default}
+- hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: pr2_mechanism-1.4}
 - hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental', version: default}
 - git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git', version: master}
 - git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
