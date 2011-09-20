@@ -71,6 +71,7 @@
 - hg: {local-name: warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: diamondback}
 - svn: {local-name: stacks/velodyne, uri: 'http://utexas-art-ros-pkg.googlecode.com/svn/tags/distros/diamondback/stacks/velodyne/'}
 - svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/tags/diamondback'}
+- hg: {local-name: stacks/executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach', version: diamondback}
 - svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/branches/wg_robots_gazebo-1.4'}
 - svn: {local-name: stacks/visualization, uri: 'https://code.ros.org/svn/ros-pkg/stacks/visualization/branches/visualization-1.4'}
 - svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/branches/simulator_gazebo-1.2'}
@@ -96,7 +97,6 @@
 - svn: {local-name: stacks/pr2_common_alpha, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common_alpha/trunk'}
 - hg: {local-name: contops, uri: 'https://kforge.ros.org/contops/hg/', version: default}
 - hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: default}
-- hg: {local-name: stacks/executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach', version: default}
 - hg: {local-name: stacks/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg', version: default}
 - hg: {local-name: stacks/pr2_doors, uri: 'https://kforge.ros.org/doors/hg', version: default}
 - hg: {local-name: stacks/navigation, uri: 'https://kforge.ros.org/navigation/navigation', version: default}
