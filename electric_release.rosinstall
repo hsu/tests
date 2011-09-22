@@ -4,34 +4,50 @@
 # USE THE rosinstall TOOL INSTEAD.
 # IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
 - svn: {local-name: diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/diagnostics-1.6.1'}
-- hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore', version: common_rosdeps-0.1.8}
+- hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore',
+    version: common_rosdeps-0.1.8}
 - hg: {local-name: bond_core, uri: 'https://kforge.ros.org/common/bondcore', version: bond_core-1.5.2}
 - hg: {local-name: common, uri: 'https://kforge.ros.org/common/common', version: common-1.5.6}
 - hg: {local-name: eigen, uri: 'https://kforge.ros.org/geometry/eigen', version: eigen-1.5.3}
 - hg: {local-name: filters, uri: 'https://kforge.ros.org/common/filters', version: filters-1.6.0}
 - hg: {local-name: bullet, uri: 'https://kforge.ros.org/geometry/bullet', version: bullet-2.76.3}
 - hg: {local-name: geometry, uri: 'https://kforge.ros.org/geometry/geometry', version: geometry-1.5.5}
-- hg: {local-name: nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore', version: nodelet_core-1.5.0}
-- git: {local-name: orocos_kinematics_dynamics, uri: 'https://kforge.ros.org/geometry/kdlclone', version: orocos_kinematics_dynamics-0.2.1}
+- hg: {local-name: nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore',
+    version: nodelet_core-1.5.0}
+- git: {local-name: orocos_kinematics_dynamics, uri: 'https://kforge.ros.org/geometry/kdlclone',
+    version: orocos_kinematics_dynamics-0.2.1}
 - hg: {local-name: pluginlib, uri: 'https://kforge.ros.org/common/pluginlib', version: pluginlib-1.5.1}
 - hg: {local-name: assimp, uri: 'https://kforge.ros.org/robotmodel/assimp', version: assimp-0.1.1}
-- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model', version: robot_model-1.5.6}
-- hg: {local-name: executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach', version: executive_smach-1.0.2}
+- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
+    version: robot_model-1.5.6}
+- hg: {local-name: executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach',
+    version: executive_smach-1.0.2}
 - hg: {local-name: xacro, uri: 'https://kforge.ros.org/common/xacro', version: xacro-1.6.0}
-- hg: {local-name: executive_smach_visualization, uri: 'https://kforge.ros.org/smach/visualization', version: executive_smach_visualization-1.0.1}
+- hg: {local-name: executive_smach_visualization, uri: 'https://kforge.ros.org/smach/visualization',
+    version: executive_smach_visualization-1.0.1}
 - svn: {local-name: diagnostics_monitors, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics_monitors/tags/diagnostics_monitors-1.4.0'}
-- hg: {local-name: geometry_visualization, uri: 'https://kforge.ros.org/geometry/visualization', version: geometry_visualization-0.1.1}
-- hg: {local-name: robot_model_visualization, uri: 'https://kforge.ros.org/robotmodel/visualization', version: robot_model_visualization-0.1.2}
+- hg: {local-name: geometry_visualization, uri: 'https://kforge.ros.org/geometry/visualization',
+    version: geometry_visualization-0.1.1}
+- hg: {local-name: robot_model_visualization, uri: 'https://kforge.ros.org/robotmodel/visualization',
+    version: robot_model_visualization-0.1.2}
 - hg: {local-name: control, uri: 'https://bitbucket.org/sglaser/control', version: control-1.0.0}
 - svn: {local-name: octomap_mapping, uri: 'https://alufr-ros-pkg.googlecode.com/svn/tags/stacks/octomap_mapping/octomap_mapping-0.3.3.1'}
-- hg: {local-name: navigation, uri: 'https://kforge.ros.org/navigation/navigation', version: navigation-1.6.0}
-- hg: {local-name: pr2_calibration, uri: 'https://kforge.ros.org/calibration/pr2_calibration', version: pr2_calibration-1.0.0}
-- hg: {local-name: pr2_navigation, uri: 'https://kforge.ros.org/pr2navigation/hg', version: pr2_navigation-0.1.7}
-- hg: {local-name: warehousewg, uri: 'http://kforge.ros.org/warehousewg/warehouse-hg', version: warehousewg-0.4.4}
-- hg: {local-name: geometry_experimental, uri: 'https://kforge.ros.org/geometry/experimental', version: geometry_experimental-0.2.2}
-- hg: {local-name: geometry_tutorials, uri: 'https://kforge.ros.org/geometry/tutorials', version: geometry_tutorials-0.1.3}
-- hg: {local-name: robot_model_tutorials, uri: 'https://kforge.ros.org/robotmodel/tutorials', version: robot_model_tutorials-0.1.2}
-- hg: {local-name: arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental', version: electric}
+- hg: {local-name: navigation, uri: 'https://kforge.ros.org/navigation/navigation',
+    version: navigation-1.6.0}
+- hg: {local-name: pr2_calibration, uri: 'https://kforge.ros.org/calibration/pr2_calibration',
+    version: pr2_calibration-1.0.0}
+- hg: {local-name: pr2_navigation, uri: 'https://kforge.ros.org/pr2navigation/hg',
+    version: pr2_navigation-0.1.7}
+- hg: {local-name: warehousewg, uri: 'http://kforge.ros.org/warehousewg/warehouse-hg',
+    version: warehousewg-0.4.4}
+- hg: {local-name: geometry_experimental, uri: 'https://kforge.ros.org/geometry/experimental',
+    version: geometry_experimental-0.2.2}
+- hg: {local-name: geometry_tutorials, uri: 'https://kforge.ros.org/geometry/tutorials',
+    version: geometry_tutorials-0.1.3}
+- hg: {local-name: robot_model_tutorials, uri: 'https://kforge.ros.org/robotmodel/tutorials',
+    version: robot_model_tutorials-0.1.2}
+- hg: {local-name: arm_navigation_experimental, uri: 'https://kforge.ros.org/armnavigation/experimental',
+    version: electric}
 - svn: {local-name: ros, uri: 'https://code.ros.org/svn/ros/stacks/ros/tags/electric'}
 - svn: {local-name: ros_comm, uri: 'https://code.ros.org/svn/ros/stacks/ros_comm/tags/electric'}
 - svn: {local-name: common_msgs, uri: 'https://code.ros.org/svn/ros-pkg/stacks/common_msgs/tags/electric'}
@@ -40,7 +56,8 @@
 - svn: {local-name: rx, uri: 'https://code.ros.org/svn/ros/stacks/rx/tags/electric'}
 - svn: {local-name: image_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_common/tags/electric'}
 - svn: {local-name: perception_pcl, uri: 'http://svn.pointclouds.org/ros/tags/electric'}
-- hg: {local-name: arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation', version: electric}
+- hg: {local-name: arm_navigation, uri: 'https://kforge.ros.org/armnavigation/armnavigation',
+    version: electric}
 - svn: {local-name: image_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_pipeline/tags/electric'}
 - svn: {local-name: vision_opencv, uri: 'https://code.ros.org/svn/ros-pkg/stacks/vision_opencv/tags/electric'}
 - svn: {local-name: slam_gmapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_gmapping/tags/electric'}
@@ -53,12 +70,17 @@
 - svn: {local-name: ros_tutorials, uri: 'https://code.ros.org/svn/ros/stacks/ros_tutorials/tags/electric'}
 - svn: {local-name: pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/tags/electric'}
 - svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/tags/electric'}
+- svn: {local-name: multimaster_experimental, uri: 'https://code.ros.org/svn/ros/stacks/multimaster_experimental/tags/electric'}
 - svn: {local-name: driver_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/driver_common/tags/unstable'}
 - svn: {local-name: pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/unstable'}
-- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator', version: unstable}
-- hg: {local-name: stacks/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot', version: unstable}
-- hg: {local-name: stacks/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz', version: unstable}
-- hg: {local-name: stacks/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps', version: unstable}
+- hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator',
+    version: unstable}
+- hg: {local-name: stacks/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot',
+    version: unstable}
+- hg: {local-name: stacks/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz',
+    version: unstable}
+- hg: {local-name: stacks/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps',
+    version: unstable}
 - svn: {local-name: laser_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/laser_pipeline/tags/unstable'}
 - svn: {local-name: kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/kinematics/tags/unstable'}
 - svn: {local-name: motion_planners, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/tags/unstable'}
@@ -116,3 +138,5 @@
 - git: {local-name: cob_extern, uri: 'https://github.com/ipa320/cob_extern.git'}
 - svn: {local-name: m3lcj, uri: 'http://mekabot-dev.com/svn/m3lcj/branches/exp_bench'}
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
+- svn: {local-name: erratic_robot, uri: 'https://ua-ros-pkg.googlecode.com/svn/stacks/erratic_robot/tags/electric'}
+- svn: {local-name: pr2_cockpit, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_cockpit/tags/unstable'}
