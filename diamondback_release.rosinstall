@@ -14,7 +14,8 @@
 - svn: {local-name: stacks/diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/diamondback'}
 - svn: {local-name: stacks/documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/diamondback'}
 - svn: {local-name: stacks/driver_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/driver_common/tags/diamondback'}
-- hg: {local-name: stacks/geometry, uri: 'https://ros-geometry.googlecode.com/hg/', version: diamondback}
+- hg: {local-name: stacks/geometry, uri: 'https://ros-geometry.googlecode.com/hg/',
+    version: diamondback}
 - svn: {local-name: stacks/image_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_common/tags/diamondback'}
 - svn: {local-name: stacks/image_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_pipeline/tags/diamondback'}
 - svn: {local-name: stacks/image_transport_plugins, uri: 'https://code.ros.org/svn/ros-pkg/stacks/image_transport_plugins/tags/diamondback'}
@@ -68,10 +69,10 @@
 - svn: {local-name: stacks/wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/tags/diamondback'}
 - svn: {local-name: stacks/wifi_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wifi_drivers/tags/diamondback'}
 - svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/tags/diamondback'}
-- hg: {local-name: warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg', version: diamondback}
+- hg: {local-name: warehousewg, uri: 'https://kforge.ros.org/warehousewg/warehouse-hg',
+    version: diamondback}
 - svn: {local-name: stacks/velodyne, uri: 'http://utexas-art-ros-pkg.googlecode.com/svn/tags/distros/diamondback/stacks/velodyne/'}
 - svn: {local-name: stacks/sbpl_dynamic_env, uri: 'https://mediabox.grasp.upenn.edu/svn/penn-ros-pkgs/sbpl_dynamic_env/tags/diamondback'}
-- hg: {local-name: stacks/executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach', version: diamondback}
 - svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/branches/wg_robots_gazebo-1.4'}
 - svn: {local-name: stacks/visualization, uri: 'https://code.ros.org/svn/ros-pkg/stacks/visualization/branches/visualization-1.4'}
 - svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/branches/simulator_gazebo-1.2'}
@@ -80,9 +81,12 @@
 - svn: {local-name: stacks/physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/branches/physics_ode-1.4'}
 - svn: {local-name: stacks/pr2_controllers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_controllers/branches/pr2_controllers-1.4'}
 - svn: {local-name: stacks/pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/branches/pr2_ethercat_drivers-1.4'}
-- hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: pr2_mechanism-1.4}
-- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model', version: robot_model-1.4}
-- bzr: {local-name: shadow_robot, uri: 'http://bazaar.launchpad.net/~shadowrobot/sr-ros-interface/stable', version: root}
+- hg: {local-name: stacks/pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg',
+    version: pr2_mechanism-1.4}
+- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
+    version: robot_model-1.4}
+- bzr: {local-name: shadow_robot, uri: 'http://bazaar.launchpad.net/~shadowrobot/sr-ros-interface/stable',
+    version: root}
 - hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore'}
 - svn: {local-name: wg-ros-pkg-unreleased-diamondback, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback'}
 - svn: {local-name: ros_experimental, uri: 'https://code.ros.org/svn/ros/stacks/ros_experimental/trunk'}
@@ -97,16 +101,21 @@
 - svn: {local-name: stacks/pr2_common_alpha, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common_alpha/trunk'}
 - hg: {local-name: contops, uri: 'https://kforge.ros.org/contops/hg/', version: default}
 - hg: {local-name: stacks/control, uri: 'https://bitbucket.org/sglaser/control', version: default}
+- hg: {local-name: stacks/executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach', version: diamondback}
 - hg: {local-name: stacks/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg', version: default}
 - hg: {local-name: stacks/pr2_doors, uri: 'https://kforge.ros.org/doors/hg', version: default}
-- hg: {local-name: stacks/navigation, uri: 'https://kforge.ros.org/navigation/navigation', version: default}
-- hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental', version: default}
-- git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git', version: master}
+- hg: {local-name: stacks/navigation, uri: 'https://kforge.ros.org/navigation/navigation',
+    version: default}
+- hg: {local-name: stacks/navigation_experimental, uri: 'https://kforge.ros.org/navigation/experimental',
+    version: default}
+- git: {local-name: stacks/whole_body_control, uri: 'https://github.com/poftwaresatent/whole_body_control.git',
+    version: master}
 - git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
 - svn: {local-name: stacks/vslam, uri: 'https://code.ros.org/svn/ros-pkg/stacks/vslam/tags/unstable'}
 - svn: {local-name: stacks/slam_karto, uri: 'https://code.ros.org/svn/ros-pkg/stacks/slam_karto/tags/unstable'}
 - svn: {local-name: stacks/pr2_kinematics_with_constraints, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics_with_constraints/tags/unstable'}
 - svn: {local-name: stacks/pr2_arm_navigation_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_apps/tags/unstable'}
-- hg: {local-name: stacks/geometry_experimental, uri: 'https://ros-geometry-experimental.googlecode.com/hg/', version: unstable}
+- hg: {local-name: stacks/geometry_experimental, uri: 'https://ros-geometry-experimental.googlecode.com/hg/',
+    version: unstable}
 - svn: {local-name: stacks/geometry_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/geometry_tutorials/tags/unstable'}
 - svn: {local-name: stacks/graph_mapping, uri: 'https://code.ros.org/svn/ros-pkg/stacks/graph_mapping/tags/unstable'}
