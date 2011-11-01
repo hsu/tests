@@ -3,17 +3,23 @@
 # IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
 # USE THE rosinstall TOOL INSTEAD.
 # IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
-- svn: {local-name: pr2_arm_navigation_tests, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/trunk'}
 - svn: {local-name: diagnostics, uri: 'https://code.ros.org/svn/ros-pkg/stacks/diagnostics/tags/diagnostics-1.6.1'}
 - hg: {local-name: common_rosdeps, uri: 'https://kforge.ros.org/common/rosdepcore',
     version: common_rosdeps-0.1.8}
 - hg: {local-name: bond_core, uri: 'https://kforge.ros.org/common/bondcore', version: bond_core-1.5.2}
 - hg: {local-name: common, uri: 'https://kforge.ros.org/common/common', version: common-1.5.6}
+- hg: {local-name: eigen, uri: 'https://kforge.ros.org/geometry/eigen', version: eigen-1.5.3}
 - hg: {local-name: filters, uri: 'https://kforge.ros.org/common/filters', version: filters-1.6.0}
+- hg: {local-name: bullet, uri: 'https://kforge.ros.org/geometry/bullet', version: bullet-2.76.3}
+- hg: {local-name: geometry, uri: 'https://kforge.ros.org/geometry/geometry', version: geometry-1.5.5}
+- hg: {local-name: nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore',
+    version: nodelet_core-1.5.0}
 - git: {local-name: orocos_kinematics_dynamics, uri: 'https://kforge.ros.org/geometry/kdlclone',
     version: orocos_kinematics_dynamics-0.2.1}
 - hg: {local-name: pluginlib, uri: 'https://kforge.ros.org/common/pluginlib', version: pluginlib-1.5.1}
 - hg: {local-name: assimp, uri: 'https://kforge.ros.org/robotmodel/assimp', version: assimp-0.1.1}
+- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
+    version: robot_model-1.5.6}
 - hg: {local-name: executive_smach, uri: 'https://kforge.ros.org/smach/executive_smach',
     version: executive_smach-1.0.2}
 - hg: {local-name: xacro, uri: 'https://kforge.ros.org/common/xacro', version: xacro-1.6.0}
@@ -63,22 +69,18 @@
 - svn: {local-name: documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/electric'}
 - svn: {local-name: ros_tutorials, uri: 'https://code.ros.org/svn/ros/stacks/ros_tutorials/tags/electric'}
 - svn: {local-name: pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/tags/electric'}
+- svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/tags/electric'}
 - svn: {local-name: multimaster_experimental, uri: 'https://code.ros.org/svn/ros/stacks/multimaster_experimental/tags/electric'}
 - svn: {local-name: driver_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/driver_common/tags/unstable'}
 - svn: {local-name: pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/unstable'}
-- hg: {local-name: bullet, uri: 'https://kforge.ros.org/geometry/bullet', version: default}
-- hg: {local-name: eigen, uri: 'https://kforge.ros.org/geometry/eigen', version: tf_rework}
-- hg: {local-name: geometry, uri: 'https://kforge.ros.org/geometry/geometry', version: optimized}
-- hg: {local-name: nodelet_core, uri: 'https://kforge.ros.org/common/nodeletcore',
-    version: default}
 - hg: {local-name: stacks/turtlebot_simulator, uri: 'https://kforge.ros.org/turtlebot/simulator',
-    version: default}
+    version: unstable}
 - hg: {local-name: stacks/turtlebot, uri: 'https://kforge.ros.org/turtlebot/turtlebot',
-    version: default}
+    version: unstable}
 - hg: {local-name: stacks/turtlebot_viz, uri: 'https://kforge.ros.org/turtlebot/turtlebot_viz',
-    version: default}
+    version: unstable}
 - hg: {local-name: stacks/turtlebot_apps, uri: 'https://kforge.ros.org/turtlebot/turtlebot_apps',
-    version: default}
+    version: unstable}
 - svn: {local-name: laser_pipeline, uri: 'https://code.ros.org/svn/ros-pkg/stacks/laser_pipeline/tags/unstable'}
 - svn: {local-name: kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/kinematics/tags/unstable'}
 - svn: {local-name: motion_planners, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/motion_planners/tags/unstable'}
@@ -95,13 +97,12 @@
 - svn: {local-name: visualization_tutorials, uri: 'https://code.ros.org/svn/ros-pkg/stacks/visualization_tutorials/tags/unstable'}
 - svn: {local-name: pr2_gui, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_gui/tags/unstable'}
 - svn: {local-name: pr2_power_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_power_drivers/tags/unstable'}
-- svn: {local-name: ros_release, uri: 'https://code.ros.org/svn/ros/stacks/ros_release/trunk'}
 - svn: {local-name: fcl_ros, uri: 'https://kforge.ros.org/fcl/fcl_ros/trunk'}
 - svn: {local-name: physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/trunk'}
 - svn: {local-name: pr2_controllers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_controllers/trunk'}
 - svn: {local-name: pr2_common, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common/trunk'}
-- svn: {local-name: simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/branches/simulator_gazebo-1.4'}
-- svn: {local-name: pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/branches/pr2_simulator-1.6'}
+- svn: {local-name: simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
+- svn: {local-name: pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/trunk'}
 - svn: {local-name: mpi, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/mpi/trunk'}
 - svn: {local-name: installers, uri: 'https://code.ros.org/svn/ros/installers/trunk'}
 - svn: {local-name: urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
@@ -123,28 +124,21 @@
 - svn: {local-name: wg_pr2_apps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_pr2_apps/trunk'}
 - svn: {local-name: willow_maps, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_common/trunk/willow_maps'}
 - svn: {local-name: teleop_head, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_common_alpha/trunk/teleop_head'}
+- svn: {local-name: pr2_arm_ik_tests, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_arm_navigation_tests/trunk/pr2_arm_ik_tests'}
 - hg: {local-name: pr2_mechanism, uri: 'https://kforge.ros.org/pr2mechanism/hg', version: default}
-- hg: {local-name: robot_model, uri: 'https://kforge.ros.org/robotmodel/robot_model',
-    version: default}
 - hg: {local-name: audio_common, uri: 'https://kforge.ros.org/audiocommon/audio_common'}
 - hg: {local-name: contops, uri: 'https://kforge.ros.org/contops/hg/'}
 - hg: {local-name: pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
 - hg: {local-name: pr2_doors, uri: 'https://kforge.ros.org/doors/hg'}
+- git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
+- git: {local-name: cob_apps, uri: 'https://github.com/ipa320/cob_apps.git'}
+- git: {local-name: cob_simulation, uri: 'https://github.com/ipa320/cob_simulation.git'}
+- git: {local-name: cob_driver, uri: 'https://github.com/ipa320/cob_driver.git'}
+- git: {local-name: cob_common, uri: 'https://github.com/ipa320/cob_common.git'}
+- git: {local-name: cob_extern, uri: 'https://github.com/ipa320/cob_extern.git'}
 - svn: {local-name: m3lcj, uri: 'http://mekabot-dev.com/svn/m3lcj/branches/exp_bench'}
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
 - svn: {local-name: erratic_robot, uri: 'https://ua-ros-pkg.googlecode.com/svn/stacks/erratic_robot/tags/electric'}
 - svn: {local-name: pr2_cockpit, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_cockpit/tags/unstable'}
+- git: {local-name: uos-ros-pkg, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-ros-pkg.git'}
 - svn: {local-name: p2os, uri: 'https://usc-ros-pkg.svn.sourceforge.net/svnroot/usc-ros-pkg/trunk/p2os'}
-- svn: {local-name: kt2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_electric/kt2_simulator'}
-- git: {local-name: cob_apps, uri: 'https://github.com/ipa320/cob_apps.git', version: master}
-- git: {local-name: cob_simulation, uri: 'https://github.com/ipa320/cob_simulation.git',
-    version: master}
-- git: {local-name: cob_driver, uri: 'https://github.com/ipa320/cob_driver.git', version: master}
-- git: {local-name: cob_common, uri: 'https://github.com/ipa320/cob_common.git', version: master}
-- git: {local-name: cob_extern, uri: 'https://github.com/ipa320/cob_extern.git', version: master}
-- git: {local-name: uos-ros-pkg, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-ros-pkg.git',
-    version: master}
-- hg:
-    local-name: openni_kinect
-    meta: {repo-name: wg-kforge}
-    uri: https://kforge.ros.org/openni/openni_ros
