@@ -131,14 +131,14 @@
 - hg: {local-name: pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
 - hg: {local-name: pr2_doors, uri: 'https://kforge.ros.org/doors/hg'}
 - git: {local-name: ni, uri: 'https://github.com/ros-pkg-git/ni.git', version: master}
-- git: {local-name: cob_apps, uri: 'https://github.com/ipa320/cob_apps.git'}
-- git: {local-name: cob_simulation, uri: 'https://github.com/ipa320/cob_simulation.git'}
-- git: {local-name: cob_driver, uri: 'https://github.com/ipa320/cob_driver.git'}
-- git: {local-name: cob_common, uri: 'https://github.com/ipa320/cob_common.git'}
-- git: {local-name: cob_extern, uri: 'https://github.com/ipa320/cob_extern.git'}
+- git: {local-name: cob_apps, uri: 'https://github.com/ipa320/cob_apps.git', version: master}
+- git: {local-name: cob_simulation, uri: 'https://github.com/ipa320/cob_simulation.git', version: master}
+- git: {local-name: cob_driver, uri: 'https://github.com/ipa320/cob_driver.git', version: master}
+- git: {local-name: cob_common, uri: 'https://github.com/ipa320/cob_common.git', version: master}
+- git: {local-name: cob_extern, uri: 'https://github.com/ipa320/cob_extern.git', version: master}
 - svn: {local-name: m3lcj, uri: 'http://mekabot-dev.com/svn/m3lcj/branches/exp_bench'}
 - svn: {local-name: mit-ros-pkg, uri: 'https://svn.csail.mit.edu/mit-ros-pkg'}
 - svn: {local-name: erratic_robot, uri: 'https://ua-ros-pkg.googlecode.com/svn/stacks/erratic_robot/tags/electric'}
 - svn: {local-name: pr2_cockpit, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_cockpit/tags/unstable'}
-- git: {local-name: uos-ros-pkg, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-ros-pkg.git'}
+- git: {local-name: uos-ros-pkg, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-ros-pkg.git', version: master}
 - svn: {local-name: p2os, uri: 'https://usc-ros-pkg.svn.sourceforge.net/svnroot/usc-ros-pkg/trunk/p2os'}
