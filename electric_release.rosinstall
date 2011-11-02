@@ -62,7 +62,7 @@
 - svn: {local-name: stage, uri: 'https://code.ros.org/svn/ros-pkg/stacks/stage/tags/electric'}
 - svn: {local-name: documentation, uri: 'https://code.ros.org/svn/ros/stacks/documentation/tags/electric'}
 - svn: {local-name: ros_tutorials, uri: 'https://code.ros.org/svn/ros/stacks/ros_tutorials/tags/electric'}
-- svn: {local-name: pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/tags/electric'}
+- svn: {local-name: pr2_ethercat_drivers, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_ethercat_drivers/trunk'}
 - svn: {local-name: multimaster_experimental, uri: 'https://code.ros.org/svn/ros/stacks/multimaster_experimental/tags/electric'}
 - svn: {local-name: driver_common, uri: 'https://code.ros.org/svn/ros-pkg/stacks/driver_common/tags/unstable'}
 - svn: {local-name: pr2_kinematics, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_kinematics/tags/unstable'}
