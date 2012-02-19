@@ -1,4 +1,0 @@
-- svn: {local-name: stacks/pr2_simulator, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/pr2_simulator/branches/pr2_simulator-1.2'}
-- svn: {local-name: stacks/simulator_gazebo, uri: 'https://code.ros.org/svn/ros-pkg/stacks/simulator_gazebo/trunk'}
-- svn: {local-name: stacks/physics_ode, uri: 'https://code.ros.org/svn/ros-pkg/stacks/physics_ode/trunk'}
-- svn: {local-name: stacks/wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/stacks/wg_robots_gazebo/trunk'}

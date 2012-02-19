@@ -1,4 +1,0 @@
-- other: {local-name: /opt/ros/cturtle/ros}
-- other: {local-name: /opt/ros/cturtle/stacks}
-- svn: {local-name: wg_robots_gazebo, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_cturtle/stacks/wg_robots_gazebo'}
-- svn: {local-name: model_database, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_cturtle/sandbox/model_database'}
